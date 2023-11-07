@@ -2,10 +2,42 @@
 font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif;*/
 
-body {
-  background-color: antiquewhite;
+:root {
+  --main-background-color: #f7f7f7;
+  --secondary-background-color: #eeeeee;
+  --main-font-color: #393e46;
+  --secondary-font-color: #929aab;
 }
-h1 {
-  color: chocolate;
-  font-family: "Lora";
+
+body {
+  background-color: var(--main-background-color);
+}
+h1,
+h2 {
+  color: var(--main-font-color);
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.main {
+  background-color: var(--secondary-background-color);
+  padding: 170px 40px;
+}
+.main p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+.main h1 {
+  font-size: 92px;
+}
+.main h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.main .about-button {
+  padding: 10px 20px;
+  display: block;
+  margin: 50px auto;
 }
