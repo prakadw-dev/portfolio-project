@@ -26,6 +26,7 @@ p {
 .main {
   background-color: var(--secondary-background-color);
   padding: 170px 40px;
+  color: var(--main-font-color);
 }
 .main p {
   font-weight: 400;
