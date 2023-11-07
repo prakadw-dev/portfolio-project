@@ -64,6 +64,30 @@ img {
   border-radius: 10px;
   max-width: 100px;
 }
+.row-content h2,
+p {
+  text-align: justify;
+  padding: 12px;
+}
+
+.about-content {
+  margin: 50px auto;
+  padding: 8px;
+}
+.btn-back-home {
+  font-weight: bold;
+  border: 1px solid var(--main-font-color);
+  padding: 10px 20px;
+  line-height: 27px;
+  font-size: 14px;
+  color: var(--main-font-color);
+  margin: 10px auto;
+}
+.btn-back-home:hover {
+  cursor: pointer;
+  color: var(--main-background-color);
+  background-color: var(--main-font-color);
+}
 @media (max-width: 900px) {
   .main p {
     font-size: 18px;
@@ -77,5 +101,9 @@ img {
   .project-desc {
     padding: 20px;
     text-align: center;
+  }
+  .row-content {
+    padding: 5px 8px;
+    padding-top: 0;
   }
 }
