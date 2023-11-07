@@ -23,6 +23,12 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+.nav-item {
+  color: var(--main-font-color) !important;
+}
+.active {
+  color: var(--pop-color) !important;
+}
 .main {
   background-color: var(--secondary-background-color);
   padding: 170px 40px;
