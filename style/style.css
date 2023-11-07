@@ -102,6 +102,28 @@ p {
   color: var(--main-background-color);
   background-color: var(--pop-color);
 }
+.main-contact {
+  background-color: var(--secondary-background-color);
+  padding: 20px 40px;
+  margin: 60px 20px;
+  border-radius: 5px;
+}
+.main-contact h2 {
+  padding: 30px 10px;
+}
+.main-contact h3 {
+  line-height: 3px;
+}
+.main-contact a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+.main-contact a:hover {
+  opacity: 70%;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--pop-color);
+}
 @media (max-width: 900px) {
   .main p {
     font-size: 18px;
