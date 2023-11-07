@@ -37,6 +37,16 @@ i:hover {
 }
 footer {
   padding-bottom: 60px;
+  color: var(--main-font-color);
+  font-family: "Lora", serif;
+}
+.github-link {
+  color: var(--pop-color);
+  text-decoration: none;
+}
+.github-link:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
 .nav-item {
   color: var(--main-font-color) !important;
