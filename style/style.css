@@ -41,3 +41,41 @@ h2 {
   display: block;
   margin: 50px auto;
 }
+.project-headline {
+  font-weight: bold;
+}
+.project-desc {
+  padding: 100px 40px;
+}
+.btn-more-info {
+  font-weight: bold;
+  border: 1px solid var(--main-font-color);
+  padding: 10px 20px;
+  line-height: 27px;
+  font-size: 14px;
+  color: var(--main-font-color);
+}
+.btn-more-info:hover {
+  cursor: pointer;
+  color: var(--main-background-color);
+  background-color: var(--main-font-color);
+}
+img {
+  border-radius: 10px;
+  max-width: 100px;
+}
+@media (max-width: 900px) {
+  .main p {
+    font-size: 18px;
+  }
+  .main h1 {
+    font-size: 58px;
+  }
+  .main h2 {
+    font-size: 20px;
+  }
+  .project-desc {
+    padding: 20px;
+    text-align: center;
+  }
+}
