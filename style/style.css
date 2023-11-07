@@ -23,6 +23,21 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+i {
+  margin: 15px;
+  color: var(--main-font-color);
+  transition: all ease-in-out 200ms;
+  background-color: var(--secondary-background-color);
+  padding: 20px;
+  border-radius: 15px;
+}
+i:hover {
+  color: var(--pop-color);
+  font-size: 30px;
+}
+footer {
+  padding-bottom: 60px;
+}
 .nav-item {
   color: var(--main-font-color) !important;
 }
