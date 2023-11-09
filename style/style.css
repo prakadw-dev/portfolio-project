@@ -156,6 +156,17 @@ p {
   cursor: pointer;
   color: var(--pop-color);
 }
+.cert-link {
+  text-decoration: none;
+  color: var(--pop-color);
+  transition: all ease-in-out 200ms;
+}
+.cert-link:hover {
+  color: var(--pop-color);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
 @media (max-width: 900px) {
   .main p {
     font-size: 18px;
